@@ -1,10 +1,6 @@
 var React = require('react');
+// const MongoClient = require('mongodb').MongoClient;
 
-// var suckIT = {
-// deathtoCodecademy:
-// React.render(
-//   "FUCK YOU AND DIE"
-//   );}
 
 function Person(name, gender){
 
@@ -16,13 +12,19 @@ function Person(name, gender){
 var person = new Person("Bob", "Male");
 
 // module.exports = person.name
+var fuck ="fuuuuuck";
 
 module.exports = React.createClass({
   render: function() {
     return (
+
+
       <div className="Bio">
           <p className="Bio-text">{person.name}</p>
+          <p className="Bio-text">{fuck}</p>
+          <p className="Bio-text">{fuck}</p>
       </div>
+
     )
   }
 });
